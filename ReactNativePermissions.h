@@ -7,9 +7,9 @@
 //
 
 #if __has_include(<React/RCTBridgeModule.h>)
-  #import "RCTBridgeModule.h"
-#else
   #import <React/RCTBridgeModule.h>
+#else
+  #import "RCTBridgeModule.h"
 #endif
 
 @interface ReactNativePermissions : NSObject <RCTBridgeModule>
